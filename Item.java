@@ -1,21 +1,19 @@
 public class Item {
-    private String name;
 
-    private int calories;
+  private String name;
+  private int calories;
 
-    public Item(String name, int calories){
-        this.name = name;
+  public Item(String name, int calories) {
+    this.name = name;
+    this.calories = calories;
+  }
 
-        this.calories = calories;
-    }
+  //! getter and seter
+  public String getName() {
+    return name;
+  }
 
-    //! getter and seter
-    public String getName(){
-        return  name;
-    }
-
-    public int getCalories(){
-        return calories;
-    }
-
+  public int getCalories() {
+    return calories;
+  }
 }

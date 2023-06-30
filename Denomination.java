@@ -8,7 +8,6 @@ public class Denomination {
     this.quantity = quantity;
   }
 
-  
   public String getType() {
     return type;
   }
@@ -17,8 +16,7 @@ public class Denomination {
     return quantity;
   }
 
-
-  public void replenish(int quantity){
+  public void replenish(int quantity) {
     this.quantity += quantity;
   }
 }

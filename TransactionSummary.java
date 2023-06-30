@@ -1,29 +1,29 @@
 public class TransactionSummary {
-    private int quantitySold;
-    private float amountCollected;
 
-    public TransactionSummary(int quantitySold, float amountCollected)
-    {
-        this.quantitySold = quantitySold;
-        this.amountCollected = amountCollected;
-    }
+  private int quantitySold;
+  private float amountCollected;
 
-    //! getter and setter
-    public int getQuantitySold(){
-        return quantitySold;
-    }
+  public TransactionSummary(int quantitySold, float amountCollected) {
+    this.quantitySold = quantitySold;
+    this.amountCollected = amountCollected;
+  }
 
-    public float getAmountCollected(){
-        return amountCollected;
-    }
+  //! getter and setter
+  public int getQuantitySold() {
+    return quantitySold;
+  }
 
-    //! add all sold items
+  public float getAmountCollected() {
+    return amountCollected;
+  }
 
-    public void addQuantitySold(){
-        quantitySold++;
-    }
+  //! add all sold items
 
-    public void addCollectedAmount(float payAmount){
-        amountCollected += payAmount;
-    }
+  public void addQuantitySold() {
+    quantitySold++;
+  }
+
+  public void addCollectedAmount(float payAmount) {
+    amountCollected += payAmount;
+  }
 }
