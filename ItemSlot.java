@@ -5,11 +5,11 @@ public class ItemSlot {
   private int capacity;
   private float price;
 
-  public ItemSlot(int capacity) {
+  public ItemSlot(int capacity, float price) {
         this.items = new Item[capacity];
         this.quantity = 0;
         this.capacity = capacity;
-        this.price = 0.0f;
+        this.price = price;
   }
 
   //! getter and setter
@@ -20,10 +20,6 @@ public class ItemSlot {
 
   public float getPrice() {
     return price;
-  }
-
-  public void setPrice(float price) {
-    this.price = price;
   }
 
   public int getQuantity() {
@@ -45,7 +41,7 @@ public class ItemSlot {
   }
 
   //! stock bought
-  public void decrementQuantity(int quantity){
+  public void decrementQuantity(){
     this.quantity -= quantity;
   }
 

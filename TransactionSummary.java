@@ -23,7 +23,5 @@ public class TransactionSummary {
     quantitySold++;
   }
 
-  public void addCollectedAmount(float payAmount) {
-    amountCollected += payAmount;
-  }
+  
 }
