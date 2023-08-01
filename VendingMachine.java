@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class VendingMachine {
 
+  
   private float collected;
   private ItemSlot[] slots;
   private TransactionSummary summary;
